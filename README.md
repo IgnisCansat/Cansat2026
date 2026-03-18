@@ -2,112 +2,90 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ignis - CanSat Team</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #0f0f0f;
-      color: #ffffff;
-    }
-    header {
-      background: linear-gradient(90deg, #ff3c3c, #ff7b00);
-      padding: 40px;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 3em;
-    }
-    h2 {
-      color: #ff7b00;
-    }
-    section {
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .card {
-      background-color: #1c1c1c;
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #111;
-      font-size: 0.9em;
-      color: #aaa;
-    }
-    .highlight {
-      color: #ff3c3c;
-      font-weight: bold;
-    }
-  </style>
+  <title>IGNIS - CanSat Team</title>
 </head>
-<body>
 
-<header>
-  <h1>🔥 IGNIS</h1>
-  <p>Equipo participante en CanSat</p>
-</header>
+<body style="font-family: Arial; background-color:#0f0f0f; color:white; margin:0;">
 
-<section>
-  <div class="card">
-    <h2>🚀 Sobre nosotros</h2>
+  <!-- HEADER -->
+  <div style="background: linear-gradient(90deg,#ff3c3c,#ff7b00); padding:40px; text-align:center;">
+    <h1>🔥 IGNIS</h1>
+    <p>Equipo CanSat | Ingeniería · Ciencia · Innovación</p>
+  </div>
+
+  <!-- FOTO EQUIPO -->
+  <div style="text-align:center; padding:30px;">
+    <img src="assets/equipo1.jpg" alt="Equipo IGNIS" width="80%" style="border-radius:10px;">
+  </div>
+
+  <!-- SOBRE NOSOTROS -->
+  <div style="max-width:900px; margin:auto; padding:20px;">
+    <h2 style="color:#ff7b00;">🚀 Sobre nosotros</h2>
     <p>
-      Somos <span class="highlight">Ignis</span>, un equipo apasionado por la tecnología y la exploración aeroespacial.
-      Participamos por <span class="highlight">tercera vez</span> en la competición <strong>CanSat</strong>, donde diseñamos,
-      construimos y lanzamos satélites en miniatura dentro de una lata.
+      Somos <b>IGNIS</b>, un equipo apasionado por la ingeniería y la exploración aeroespacial.
+      Participamos por <b>tercera vez</b> en la competición <b>CanSat</b>, donde diseñamos,
+      construimos y lanzamos satélites en miniatura.
+    </p>
+
+    <p>
+      Nuestro proyecto combina innovación tecnológica, análisis científico y trabajo en equipo
+      para desarrollar misiones cada vez más avanzadas.
     </p>
   </div>
 
-  <div class="card">
-    <h2>🏆 Logros</h2>
-    <p>
-      En 2025 conseguimos un gran hito:
-    </p>
+  <!-- LOGROS -->
+  <div style="max-width:900px; margin:auto; padding:20px;">
+    <h2 style="color:#ff7b00;">🏆 Logros</h2>
     <ul>
-      <li>🥇 Premio a la <strong>Mejor Misión Científica</strong></li>
-      <li>📍 Final Regional de Murcia</li>
+      <li>🥇 Premio a la <b>Mejor Misión Científica</b></li>
+      <li>📍 Final Regional de Murcia 2025</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h2>🧠 Nuestra misión</h2>
+  <!-- FOTO DIVERTIDA -->
+  <div style="text-align:center; padding:30px;">
+    <img src="assets/equipo2.jpg" alt="Equipo IGNIS selfie" width="60%" style="border-radius:10px;">
+  </div>
+
+  <!-- MISION -->
+  <div style="max-width:900px; margin:auto; padding:20px;">
+    <h2 style="color:#ff7b00;">🧠 Nuestra misión</h2>
     <p>
-      Nuestro objetivo es desarrollar soluciones innovadoras en el ámbito aeroespacial,
-      combinando ciencia, ingeniería y trabajo en equipo para llevar nuestras ideas al límite.
+      En IGNIS buscamos llevar la ciencia más allá del aula, aplicando conocimientos reales
+      en proyectos aeroespaciales. Nuestro objetivo es aprender, innovar y superar cada año
+      nuevos retos técnicos.
+    </p>
+
+    <p>
+      Creemos en el poder del conocimiento, la creatividad y la colaboración como motores
+      para construir el futuro.
     </p>
   </div>
 
-  <div class="card">
-    <h2>👥 Equipo</h2>
+  <!-- ORGANIGRAMA -->
+  <div style="text-align:center; padding:30px;">
+    <h2 style="color:#ff7b00;">👥 Organización del equipo</h2>
+    <img src="assets/organigrama.png" alt="Organigrama IGNIS" width="80%" style="border-radius:10px;">
+  </div>
+
+  <!-- REPOSITORIO -->
+  <div style="max-width:900px; margin:auto; padding:20px;">
+    <h2 style="color:#ff7b00;">📂 Sobre este repositorio</h2>
     <p>
-      Ignis está formado por estudiantes comprometidos que trabajan en áreas como:
+      Aquí encontrarás todo el desarrollo de nuestro proyecto CanSat:
     </p>
     <ul>
-      <li>📡 Comunicaciones</li>
-      <li>🎨 Diseño</li>
-      <li>🌍 Análisis científico</li>
-      <li>⚙️ Ingeniería</li>
+      <li>📡 Código del satélite</li>
+      <li>📊 Datos y análisis</li>
+      <li>🛠️ Diseño e ingeniería</li>
+      <li>📄 Documentación técnica</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h2>📌 Sobre este repositorio</h2>
-    <p>
-      Aquí encontrarás el desarrollo de nuestro proyecto CanSat: código, documentación,
-      diseños y todo el proceso detrás de nuestra misión.
-    </p>
+  <!-- FOOTER -->
+  <div style="text-align:center; padding:20px; background:#111; color:#aaa;">
+    <p>© 2025 IGNIS Team | CanSat Competition</p>
   </div>
-</section>
-
-<footer>
-  <p>© 2025 IGNIS Team | CanSat Competition</p>
-</footer>
 
 </body>
 </html>
