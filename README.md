@@ -65,7 +65,7 @@
   <!-- ORGANIGRAMA -->
   <div style="text-align:center; padding:30px;">
     <h2 style="color:#ff7b00;">👥 Organización del equipo</h2>
-    <img src="assets/organigrama.png" alt="Organigrama IGNIS" width="80%" style="border-radius:10px;">
+    <img src="assets/organigrama 2026 (1).png" alt="Organigrama IGNIS" width="80%" style="border-radius:10px;">
   </div>
 
   <!-- REPOSITORIO -->
